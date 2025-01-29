@@ -1,0 +1,16 @@
+.grid{
+    position: relative;
+    top: -100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual tamaño */
+    gap: 20px; /* Espacio entre los elementos */
+    padding: 20px;
+    
+}
+
+.grid img {
+    width: 100%; /* Las imágenes ocupan todo el ancho del contenedor */
+    height: 170px; /* Mantiene las proporciones de la imagen */
+    object-fit: cover; /* Asegura que las imágenes se adapten sin distorsión */
+  }
+  
