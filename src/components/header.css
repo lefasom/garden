@@ -19,11 +19,11 @@ nav {
     background-color: aliceblue;
     position: absolute;
     top: 20%;
-    right: 5%;
+    right: 24%;
     width: 290px;
     height: auto;
     padding: 25px;
-    box-shadow: 1px 1px 11px 1px rgb(56, 55, 55);
+    box-shadow: 1px 1px 11px 1px rgb(187, 185, 185);
 
 }
 .presentation article h2{
@@ -62,7 +62,7 @@ section{
     background-color: #f05510;
     height: 35vh;
     width: 100%;
-    padding-top: 40px;
+    padding-top: 60px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -74,19 +74,19 @@ section div {
 }
 section h3{ 
     text-align: center;
-    font-size: 22px;
+    font-size: 28px;
     font-family: 'Lato';
     font-weight: 600;
     color: #fff;
 }
 section p{ 
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
     font-family: 'Lato';
     font-weight: 400;
     color: #fff;
     margin: auto;
     margin-top: 15px;
-    width: 400px;
+    width: 500px;
     line-height: 18px;
 }

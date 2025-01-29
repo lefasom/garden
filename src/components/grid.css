@@ -1,16 +1,30 @@
-.grid{
+.grid {
+    display: flex;
+    justify-content: center;
     position: relative;
-    top: -100px;
+    top: -70px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual tamaño */
-    gap: 20px; /* Espacio entre los elementos */
-    padding: 20px;
-    
+    grid-template-columns: repeat(3, calc(353px + 10px)); /* Ajusta el tamaño de las columnas */
+    gap: 30px;
+}
+.image-container{
+    overflow: hidden;
+    width: 353px;
+
+}
+.image {
+    width: 353px;
+    cursor: pointer;
+    height: 353px;
+    background-size: cover; /* Asegura que la imagen cubra todo el div */
+    background-position: center; /* Centra la imagen en el div */
+    background-repeat: no-repeat;
+    transition: scale 0.3s ease, filter 0.3s ease; 
+    filter: brightness(1.1); /* Oscurece la imagen */
+
 }
 
-.grid img {
-    width: 100%; /* Las imágenes ocupan todo el ancho del contenedor */
-    height: 170px; /* Mantiene las proporciones de la imagen */
-    object-fit: cover; /* Asegura que las imágenes se adapten sin distorsión */
-  }
-  
+.image:hover {
+    scale:107%;
+    filter: brightness(0.7); /* Oscurece la imagen */
+}
