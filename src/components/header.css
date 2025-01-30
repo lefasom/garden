@@ -26,6 +26,7 @@ nav {
     box-shadow: 1px 1px 11px 1px rgb(187, 185, 185);
 
 }
+
 .presentation article h2{
     font-size: 25px;
     font-family: 'Lato';
@@ -89,4 +90,26 @@ section p{
     margin-top: 15px;
     width: 90%;
     line-height: 18px;
+}
+@media(width<700px){
+
+    .presentation article {
+        background-color: aliceblue;
+        position: absolute;
+        top: 20%;
+        right: 10%;
+        width: 220px;
+        height: auto;
+        padding: 25px;
+        box-shadow: 1px 1px 11px 1px rgb(187, 185, 185);
+    
+    }
+    section{
+        background-color: #f05510;
+        height: 45vh;
+        width: 100%;
+        padding-top: 60px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
