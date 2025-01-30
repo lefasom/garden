@@ -4,41 +4,55 @@
     position: relative;
     top: -70px;
     display: grid;
-    grid-template-columns: repeat(3, calc(353px + 10px)); /* Ajusta el tamaño de las columnas */
+    grid-template-columns: repeat(3, calc(353px + 10px));
+    /* Ajusta el tamaño de las columnas */
     gap: 30px;
 }
-@media(width<700px){
-    .grid{
-        grid-template-columns: repeat(1, calc(353px + 10px)); /* Ajusta el tamaño de las columnas */
+
+@media(width<700px) {
+    .grid {
+        grid-template-columns: repeat(1, calc(353px + 10px));
+        /* Ajusta el tamaño de las columnas */
+        top: -90px;
+
     }
+
     .image {
         width: 90%;
     }
 }
-@media (min-width: 700px) and (max-width: 1200px){
-    .grid{
-        grid-template-columns: repeat(2, calc(353px + 10px)); /* Ajusta el tamaño de las columnas */
+
+@media (min-width: 700px) and (max-width: 1200px) {
+    .grid {
+        grid-template-columns: repeat(2, calc(353px + 10px));
+        /* Ajusta el tamaño de las columnas */
     }
-    
+
 }
-.image-container{
+
+.image-container {
     overflow: hidden;
     width: 353px;
 
 }
+
 .image {
     width: 353px;
     cursor: pointer;
     height: 353px;
-    background-size: cover; /* Asegura que la imagen cubra todo el div */
-    background-position: center; /* Centra la imagen en el div */
+    background-size: cover;
+    /* Asegura que la imagen cubra todo el div */
+    background-position: center;
+    /* Centra la imagen en el div */
     background-repeat: no-repeat;
-    transition: scale 0.3s ease, filter 0.3s ease; 
-    filter: brightness(1.1); /* Oscurece la imagen */
+    transition: scale 0.3s ease, filter 0.3s ease;
+    filter: brightness(1.1);
+    /* Oscurece la imagen */
 
 }
 
 .image:hover {
-    scale:107%;
-    filter: brightness(0.7); /* Oscurece la imagen */
+    scale: 107%;
+    filter: brightness(0.7);
+    /* Oscurece la imagen */
 }
