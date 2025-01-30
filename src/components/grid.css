@@ -7,6 +7,20 @@
     grid-template-columns: repeat(3, calc(353px + 10px)); /* Ajusta el tamaño de las columnas */
     gap: 30px;
 }
+@media(width<700px){
+    .grid{
+        grid-template-columns: repeat(1, calc(353px + 10px)); /* Ajusta el tamaño de las columnas */
+    }
+    .image {
+        width: 90%;
+    }
+}
+@media (min-width: 700px) and (max-width: 1200px){
+    .grid{
+        grid-template-columns: repeat(2, calc(353px + 10px)); /* Ajusta el tamaño de las columnas */
+    }
+    
+}
 .image-container{
     overflow: hidden;
     width: 353px;
