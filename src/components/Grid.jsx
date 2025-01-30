@@ -4,22 +4,22 @@ function Grid() {
   return (
 <div className="grid">
     <div className="image-container">
-        <div className="image" style={{ backgroundImage: "url('https://assets.nicepagecdn.com/d2cc3eaa/88834/images/ff3.jpg')" }}></div>
+        <div className="image" style={{ backgroundImage: "url('fondo2.png')" }}></div>
     </div>
     <div className="image-container">
-        <div className="image" style={{ backgroundImage: "url('https://assets.nicepagecdn.com/d2cc3eaa/88834/images/ffg4.jpg')" }}></div>
+        <div className="image" style={{ backgroundImage: "url('fondo3.png" }}></div>
     </div>
     <div className="image-container">
-        <div className="image" style={{ backgroundImage: "url('https://assets.nicepagecdn.com/d2cc3eaa/88834/images/dfdfe.jpg')" }}></div>
+        <div className="image" style={{ backgroundImage: "url('fondo4.png" }}></div>
     </div>
     <div className="image-container">
-        <div className="image" style={{ backgroundImage: "url('https://assets.nicepagecdn.com/d2cc3eaa/88834/images/ddddd.jpg')" }}></div>
+        <div className="image" style={{ backgroundImage: "url('fondo5.png" }}></div>
     </div>
     <div className="image-container">
-        <div className="image" style={{ backgroundImage: "url('https://assets.nicepagecdn.com/d2cc3eaa/88834/images/rttr.jpg')" }}></div>
+        <div className="image" style={{ backgroundImage: "url('fondo6.png" }}></div>
     </div>
     <div className="image-container">
-        <div className="image" style={{ backgroundImage: "url('https://assets.nicepagecdn.com/d2cc3eaa/88834/images/333.jpg')" }}></div>
+        <div className="image" style={{ backgroundImage: "url('fondo7.png" }}></div>
     </div>
 </div>
 
