@@ -23,7 +23,7 @@ nav {
     width: 290px;
     height: auto;
     padding: 25px;
-    box-shadow: 1px 1px 11px 1px rgba(146, 146, 146, 0.378);
+    /* box-shadow: 1px 1px 11px 1px rgba(146, 146, 146, 0.378); */
 
 }
 
@@ -96,7 +96,7 @@ section p{
         width: 220px;
         height: auto;
         padding: 25px;
-        box-shadow: 1px 1px 11px 1px rgb(251, 247, 247);
+        /* box-shadow: 1px 1px 11px 1px rgb(251, 247, 247); */
     
     }
     section{
