@@ -13,7 +13,7 @@
     .grid {
         grid-template-columns: repeat(1, calc(353px + 10px));
         /* Ajusta el tamaño de las columnas */
-        top: -110px;
+        top: -70px;
 
     }
 
