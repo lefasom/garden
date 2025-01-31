@@ -53,7 +53,7 @@ nav {
     font-family: 'poppins';
     letter-spacing: 2px;
     border: 0;
-    background-color: #16404D;
+    background-color: #195677;
     color: aliceblue;
     cursor: pointer;
 }
@@ -62,7 +62,7 @@ nav {
     color: aliceblue;
 }
 section{
-    background-color: #16404D;
+    background-color: #195677;
     height: 35vh;
     width: 100%;
     padding-top: 60px;
@@ -102,7 +102,7 @@ section p{
     
     }
     section{
-        background-color: #16404D;
+        background-color: #195677;
         height: 40vh;
         width: 100%;
         padding-top: 60px;

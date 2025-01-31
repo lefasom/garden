@@ -8,16 +8,16 @@ function Header() {
       <div className="img" style={{ backgroundImage: "url('./fondo1.png')" }}></div>
 
         <article>
-          <h2>Design Your Home, Your Way</h2>
-          <h6>Habitant morbi tristique senectus et. Nec dui nunc mattis enim ut tellus. Semper auctor neque vitae tempus quam pellentesque nec nam aliquam. </h6>
-          <p>Image from </p>
-          <button> view more</button>
+          <h2>Crea el Jardín de Tus Sueños</h2>
+          <h6>Nos especializamos en la creación, mantenimiento y embellecimiento de jardines. Con nuestro equipo de expertos, tu espacio verde siempre lucirá impecable. Disfruta de la naturaleza en su máxima expresión sin preocuparte por el mantenimiento. ¡Deja que nosotros nos encarguemos de todo! </h6>
+          <p> ¡Deja que nosotros nos encarguemos de todo!</p>
+          <button>Conoce Más</button>
         </article>
       </div>
       <section>
-        <h3>Build Gre​at Products</h3>
+        <h3>Servicios de Jardinería Profesional</h3>
         <p>
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+        Ofrecemos una amplia gama de servicios que incluyen corte de césped, poda de árboles, diseño de jardines y más. Nuestra misión es brindarte un espacio verde que sea funcional y hermoso, utilizando las mejores técnicas de jardinería.
         </p>
       </section>
     </div>
