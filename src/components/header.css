@@ -63,7 +63,7 @@ nav {
 }
 section{
     background-color: #195677;
-    height: 35vh;
+    height: 45vh;
     width: 100%;
     padding-top: 60px;
     padding-left: 10px;
@@ -109,4 +109,70 @@ section p{
         padding-left: 10px;
         padding-right: 10px;
     }
+}
+@media (min-width: 700px) and (max-width: 1200px) {
+    .presentation article h2{
+        font-size: 22px;
+        font-family: 'Lato';
+        font-weight: 400;
+        color: #111;
+        
+    }
+    .presentation article h6,p{
+        font-size: 10px;
+        font-family: 'Lato';
+        font-weight: 400;
+        color: #111;
+        margin-top: 15px;
+    
+    }
+    section{
+        background-color: #195677;
+        height: 55vh;
+        width: 100%;
+        padding-top: 60px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    section h3{ 
+        text-align: center;
+        font-size: 22px;
+        font-family: 'Lato';
+        font-weight: 600;
+        color: #fff;
+    }
+    section p{ 
+        text-align: center;
+        font-size: 12px;
+        font-family: 'Lato';
+        font-weight: 400;
+        color: #fff;
+        margin: auto;
+        margin-top: 15px;
+        width: 90%;
+        line-height: 18px;
+    }
+
+}
+@media (width>1200px)and(width<=1400) {
+    section{
+        background-color: #195677;
+        height: 3vh;
+        width: 100%;
+        padding-top: 60px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
+@media (width>1400px) {
+    section{
+        background-color: #195677;
+        height: 33vh;
+        width: 100%;
+        padding-top: 60px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
 }

@@ -24,8 +24,9 @@
 
 @media (min-width: 700px) and (max-width: 1200px) {
     .grid {
-        grid-template-columns: repeat(2, calc(353px + 10px));
-        /* Ajusta el tamaño de las columnas */
+        grid-template-columns: repeat(2, calc(340px + 10px));
+        top: -90px;
+
     }
 
 }
