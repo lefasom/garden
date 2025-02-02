@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@700&display=swap');
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.title {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* Por defecto, 1 columna */
+  gap: 20px;
+}
+
+.card {
+  text-align: center;
+  opacity: 0; /* Ocultas al inicio */
+  transform: scale(0.5); /* Empieza pequeño */
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.card.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.image2 {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.project-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.headline {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #777;
+}
+
+/* Media Queries para el grid responsivo */
+
+/* 1 columna para pantallas por debajo de 500px */
+@media (max-width: 499px) {
+  .grid2 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* 2 columnas entre 500px y 699px */
+@media (min-width: 500px) and (max-width: 699px) {
+  .grid2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 3 columnas entre 700px y 1199px */
+@media (min-width: 700px) and (max-width: 1199px) {
+  .grid2 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* 4 columnas para pantallas mayores a 1200px */
+@media (min-width: 1200px) {
+  .grid2 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
