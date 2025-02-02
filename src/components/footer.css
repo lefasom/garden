@@ -1,0 +1,71 @@
+.footer-section {
+  background-color: #195677;
+  /* Fondo naranja */
+  color: white;
+  font-family: 'poppins';
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  color: white;
+
+}
+
+@media (width<700px) {
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+  
+  }
+}
+
+
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.contact-item .material-icons {
+  font-size: 36px;
+  margin-right: 10px;
+  color: aliceblue;
+}
+
+.contact-item h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  display: flex;
+}
+.contact-item h3 svg{
+  margin-left: 5px;
+}
+
+.contact-item p {
+  margin: 5px 0;
+  color: white;
+
+}
+
+.footer-bottom {
+  background-color: #333;
+  /* Fondo gris oscuro */
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.footer-bottom p {
+  color: beige;
+}
+
+.footer-bottom a {
+  color: rgb(235, 165, 165);
+  text-decoration: underline;
+}
