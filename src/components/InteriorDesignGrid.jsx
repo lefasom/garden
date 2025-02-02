@@ -42,8 +42,12 @@ const InteriorDesignGrid = () => {
 
   return (
     <div className="container">
-      <h2 className="title">Complete Interior Design Service</h2>
-      <p className="description">
+      <h2 className="title card"
+       ref={(el) => cardRefs.current.push(el)}
+       >Complete Interior Design Service</h2>
+      <p className="description card"
+       ref={(el) => cardRefs.current.push(el)}
+       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </p>
@@ -54,7 +58,7 @@ const InteriorDesignGrid = () => {
             className="card"
             ref={(el) => cardRefs.current.push(el)}
           >
-            <img src="./fondo1.png" alt={project.title} className="image2" />
+            <div style={{ backgroundImage: "url('./fondo1.png')" }} className="image2"></div>
             <h3 className="project-title">{project.title}</h3>
             <p className="headline">{project.headline}</p>
           </div>

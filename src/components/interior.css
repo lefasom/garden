@@ -8,15 +8,17 @@
 }
 
 .title {
-  font-family: 'Playfair Display', serif;
+  font-family: "Poppins", serif;
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 20px;
+
 }
 
 .description {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-family: "Poppins", serif;
+  font-style: italic;
+  font-size: 1rem;
   color: #555;
   margin-bottom: 40px;
   line-height: 1.6;
@@ -24,15 +26,19 @@
 
 .grid2 {
   display: grid;
-  grid-template-columns: repeat(1, 1fr); /* Por defecto, 1 columna */
+  justify-content: center;
+  grid-template-columns: repeat(1, 1fr);
+  /* Por defecto, 1 columna */
   gap: 20px;
 }
 
 .card {
   text-align: center;
-  opacity: 0; /* Ocultas al inicio */
-  transform: scale(0.5); /* Empieza pequeño */
-  transition: transform 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+  /* Ocultas al inicio */
+  transform: scale(0.5);
+  /* Empieza pequeño */
+  transition: transform 1s ease, opacity 1s ease;
 }
 
 .card.visible {
@@ -42,22 +48,25 @@
 
 .image2 {
   width: 100%;
-  height: auto;
-  border-radius: 8px;
+  height: 200px;
   margin-bottom: 10px;
+  cursor: pointer;
+  background-size: cover;
 }
 
 .project-title {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-family: "Poppins", serif;
+  font-size: 18px;
   font-weight: 600;
   margin-bottom: 5px;
+  color: #808080;
+  text-transform: uppercase;
 }
 
 .headline {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Poppins", serif;
   font-size: 14px;
-  color: #777;
+  color: #111;
 }
 
 /* Media Queries para el grid responsivo */
@@ -65,7 +74,7 @@
 /* 1 columna para pantallas por debajo de 500px */
 @media (max-width: 499px) {
   .grid2 {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 90%);
   }
 }
 
@@ -79,13 +88,15 @@
 /* 3 columnas entre 700px y 1199px */
 @media (min-width: 700px) and (max-width: 1199px) {
   .grid2 {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 250px);
   }
 }
 
 /* 4 columnas para pantallas mayores a 1200px */
 @media (min-width: 1200px) {
   .grid2 {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 240px);
+    gap: 40px;
+
   }
 }
