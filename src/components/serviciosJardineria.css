@@ -1,0 +1,63 @@
+.servicios-minimalista {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.descripcion h2 {
+  font-family: "Poppins", serif;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.cuadros-servicios {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+@media (width<700px) {
+  .cuadros-servicios {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+.cuadro-servicio {
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  transition: transform 0.2s ease;
+}
+
+.cuadro-servicio:hover {
+  transform: scale(1.05);
+}
+
+.imagen-servicio {
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagen-servicio h3 {
+  font-size: 1.5rem;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.cuadro-servicio p {
+  font-size: 1rem;
+  padding: 1rem;
+  color: #666;
+  text-align: left;
+}

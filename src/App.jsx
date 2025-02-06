@@ -1,11 +1,9 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/Header'
-import Grid from './components/Grid'
 import GardeningServicesGrid from './components/GardeningServicesGrid'
 import Footer from './components/Footer'
+import ServiciosJardineria from './components/ServiciosJardineria'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,7 +11,7 @@ function App() {
   return (
     <>
      <Header/>
-     <Grid/>
+    <ServiciosJardineria/>
      <GardeningServicesGrid/>
     <Footer/>
     </>

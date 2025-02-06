@@ -5,7 +5,7 @@ const GardeningServicesGrid = () => {
   const services = [
     { title: 'Poda de Césped', headline: 'Mantenimiento regular y corte uniforme del césped para un jardín impecable.', image: 'https://static.wixstatic.com/media/aca292_a618764546e64f128dd2c22bb048634d~mv2.jpg/v1/fill/w_560,h_374,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/SEPTIEMBRE%202.jpg' },
     { title: 'Poda de Arbustos', headline: 'Damos forma a sus arbustos para un crecimiento estético y saludable.', image: 'https://tupiscinayjardin.com/cdn/shop/articles/poda1-1024x351_1212x.jpg?v=1698755008' },
-    { title: 'Poda de Árboles', headline: 'Podamos árboles para mantenerlos fuertes y saludables.', image: 'https://lh3.googleusercontent.com/-gY8tAHDc4fk/VPiE2fq2d-I/AAAAAAAAAFw/cbxdKyzUAFc/w399-h709-no/poda-arboles-arbogal.jpg' },
+    { title: 'Poda de Árboles', headline: 'Podamos árboles para mantenerlos fuertes y saludables.', image: 'https://http2.mlstatic.com/D_NQ_NP_707313-MLA79926765924_102024-O.webp' },
     { title: 'Diseño de Jardines', headline: 'Transformamos su espacio en un jardín hermoso y funcional.', image: 'https://www.eluniverso.com/resizer/v2/O6HSN7KEZFAOJC4VZYUI6ZYPNU.png?auth=35553b0e7288925feb1b9025f7c9c28267cdb0f9d11350f35fd73c1c255bdf71&width=893&height=670&quality=75&smart=true' },
     { title: 'Control de Plagas', headline: 'Protección eficaz contra plagas para mantener su jardín saludable.', image: 'https://ecoplag.com.co/wp-content/uploads/2016/07/trampas_control_plagas_ecoplag.jpg' },
     { title: 'Riego Automático', headline: 'Instalación y mantenimiento de sistemas de riego eficientes.', image: 'https://d2r9epyceweg5n.cloudfront.net/stores/002/094/351/rte/sistemas%20de%20riego%20por%20aspersion%20biotienda.jpg' },

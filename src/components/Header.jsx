@@ -5,7 +5,7 @@ function Header() {
     <div>
       <nav></nav>
       <div className='presentation'>
-      <div className="img" style={{ backgroundImage: "url('./fondo1.png')" }}></div>
+        <div className="img" style={{ backgroundImage: "url('./fondo1.png')" }}></div>
 
         <article>
           <h2>Crea el Jardín de Tus Sueños</h2>
@@ -14,12 +14,18 @@ function Header() {
           <button>Conoce Más</button>
         </article>
       </div>
-      <section>
-        <h3>Servicios de Jardinería Profesional</h3>
-        <p>
-        Ofrecemos una amplia gama de servicios que incluyen corte de césped, poda de árboles, diseño de jardines y más. Nuestra misión es brindarte un espacio verde que sea funcional y hermoso, utilizando las mejores técnicas de jardinería.
-        </p>
-      </section>
+      <div className='section-div'>
+        <section>
+
+        </section>
+        <section>
+
+        </section>
+        <section>
+
+        </section>
+      </div>
+
     </div>
   )
 }
