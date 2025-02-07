@@ -28,9 +28,9 @@
 
 .contact-item {
   display: flex;
-  align-items: center;
   padding: 5px;
 }
+
 
 .contact-item .material-icons {
   font-size: 36px;
@@ -68,4 +68,9 @@
 .footer-bottom a {
   color: rgb(235, 165, 165);
   text-decoration: underline;
+}
+ul li{
+  list-style: circle;
+  margin-left: 20px;
+  font-size: 12px;
 }

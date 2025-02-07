@@ -1,5 +1,5 @@
-import React from 'react'
-import './footer.css'
+import React from 'react';
+import './footer.css';
 
 function Footer() {
   return (
@@ -13,6 +13,19 @@ function Footer() {
             </h3>
             <p>Jardinería Echegaray</p>
             <p>Regiones: Al Quoz, Colorado, USA</p>
+            <p>Barrios:</p>
+            <ul className="barrios-list">
+              <li>Al Quoz Industrial</li>
+              <li>Meadow Springs</li>
+              <li>Northwood Hills</li>
+              <li>Golden Valley</li>
+              <li>River Park</li>
+              <li>Westwood Grove</li>
+              <li>Greenfield</li>
+              <li>Southgate Heights</li>
+              <li>Pine Hill</li>
+              <li>Sunset Ridge</li>
+            </ul>
           </div>
         </div>
         <div className="contact-item">
@@ -27,8 +40,8 @@ function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <p> Todos los derechos reservados - Jardinería Echegaray 2025.</p>
-        <p>Sitio web creado por . <a href="https://github.com/lefasom">Lefasom</a></p>
+        <p> Todos los derechos reservados - Jardinería Echegaray 2025®.</p>
+        <p>Sitio web creado por <a href="https://github.com/lefasom">Lefasom</a></p>
       </div>
     </div>
   );
