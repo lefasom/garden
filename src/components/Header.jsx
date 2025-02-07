@@ -3,7 +3,10 @@ import './header.css'
 function Header() {
   return (
     <div>
-      <nav></nav>
+      <nav>
+      <div style={{ backgroundImage: "url('./servicio.png')" }}></div>
+
+      </nav>
       <div className='presentation'>
         <div className="img" style={{ backgroundImage: "url('./fondo1.png')" }}></div>
 
