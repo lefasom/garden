@@ -8,7 +8,7 @@ const GardeningServicesGrid = () => {
     { title: 'Poda de Árboles', headline: 'Podamos árboles para mantenerlos fuertes y saludables.', image: 'https://http2.mlstatic.com/D_NQ_NP_707313-MLA79926765924_102024-O.webp' },
     { title: 'Diseño de Jardines', headline: 'Transformamos su espacio en un jardín hermoso y funcional.', image: 'https://www.eluniverso.com/resizer/v2/O6HSN7KEZFAOJC4VZYUI6ZYPNU.png?auth=35553b0e7288925feb1b9025f7c9c28267cdb0f9d11350f35fd73c1c255bdf71&width=893&height=670&quality=75&smart=true' },
     { title: 'Control de Plagas', headline: 'Protección eficaz contra plagas para mantener su jardín saludable.', image: 'https://ecoplag.com.co/wp-content/uploads/2016/07/trampas_control_plagas_ecoplag.jpg' },
-    { title: 'Riego Automático', headline: 'Instalación y mantenimiento de sistemas de riego eficientes.', image: 'https://d2r9epyceweg5n.cloudfront.net/stores/002/094/351/rte/sistemas%20de%20riego%20por%20aspersion%20biotienda.jpg' },
+    { title: 'Mantenimiento de Piscina ', headline: 'Servicios de limpieza y mantenimiento.', image: 'https://gardenexpress.cl/wp-content/uploads/2023/05/pasto-sintetico-para-piscinas2.jpg' },
     { title: 'Abonado y Fertilización', headline: 'Aplicamos nutrientes para mejorar la salud de su jardín.', image: 'https://www.hola.com/horizon/original_aspect_ratio/8af80be02d00-abono-plantas-jardin-4-a.jpg' },
     { title: 'Mantenimiento Integral', headline: 'Servicios de cuidado completo para todas sus áreas verdes.', image: 'https://atcmantenimientos.com/wp-content/uploads/2014/03/atc-mantenimentos-comunidades-800x490.jpg' },
   ];
