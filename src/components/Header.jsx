@@ -28,12 +28,11 @@ function Header() {
         <section></section>
       </div>
 
-      {view !== false && (
-        <div className="random-number">
-          <div className="icon" style={{ backgroundImage: "url('./social.png')" }}></div>
-          <div className="icon" style={{ backgroundImage: "url('./whatsapp.png')" }}></div>
-        </div>
-      )}
+      {/* Mostrar íconos con animación */}
+      <div className={`random-number ${view ? 'show' : ''}`}>
+        <div className="icon" style={{ backgroundImage: "url('./social.png')" }}></div>
+        <div className="icon" style={{ backgroundImage: "url('./whatsapp.png')" }}></div>
+      </div>
     </div>
   );
 }

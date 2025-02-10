@@ -139,17 +139,21 @@ section p {
 @media (width>1200px)and(width<=1400) {}
 
 @media (width>1400px) {}
-
-/* Estilos para el número que aparecerá con la animación */
+/* Estilos base para el contenedor de los íconos */
 .random-number {
     position: fixed;
     z-index: 1000;
-
+    bottom: 150vh; /* Fuera de pantalla al inicio */
+    right: 10px;
     color: white;
-    animation: slideDownSmooth 1s forwards;
-    /* Animación de deslizamiento suave */
+    transition: bottom 1s ease-in-out; /* Transición general para la aparición/desaparición */
 }
 
+.random-number.show {
+    bottom: 68px; /* Aparece en esta posición */
+}
+
+/* Estilo base para los iconos */
 .random-number .icon {
     width: 50px;
     height: 50px;
@@ -162,23 +166,21 @@ section p {
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
-
+    transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out; /* Transiciones para los íconos */
+    opacity: 0; /* Inicia invisible */
+    transform: translateY(20px); /* Inicia desplazado */
 }
 
-/* Animación suave para deslizar el número desde arriba hasta 10px del fondo */
-@keyframes slideDownSmooth {
-    from {
-        bottom: 150vh;
-        /* Comienza fuera de la pantalla en la parte superior */
-        right: 10px;
-        /* Alineado al lateral derecho */
+/* Animación para el primer icono */
+.random-number.show .icon:first-child {
+    opacity: 1;
+    transform: translateY(0); /* Vuelve a su posición original */
+    transition-delay: 0.2s; /* Aparece primero con 0.2s de retraso */
+}
 
-    }
-
-    to {
-        bottom: 68px;
-        /* Elimina la restricción desde la parte superior */
-        right: 10px;
-        /* Alineado al lateral derecho */
-    }
+/* Animación para el segundo icono con mayor retraso */
+.random-number.show .icon:nth-child(2) {
+    opacity: 1;
+    transform: translateY(0); /* Vuelve a su posición original */
+    transition-delay: 0.5s; /* Aparece después con un retraso de 0.5s */
 }
