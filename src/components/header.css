@@ -12,6 +12,7 @@ nav {
     display: flex;
     justify-content: center;
 }
+
 nav div {
     margin: 10px;
     width: 200px;
@@ -138,3 +139,46 @@ section p {
 @media (width>1200px)and(width<=1400) {}
 
 @media (width>1400px) {}
+
+/* Estilos para el número que aparecerá con la animación */
+.random-number {
+    position: fixed;
+    z-index: 1000;
+
+    color: white;
+    animation: slideDownSmooth 1s forwards;
+    /* Animación de deslizamiento suave */
+}
+
+.random-number .icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+    padding: 10px;
+    margin-right: 10px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+
+}
+
+/* Animación suave para deslizar el número desde arriba hasta 10px del fondo */
+@keyframes slideDownSmooth {
+    from {
+        bottom: 150vh;
+        /* Comienza fuera de la pantalla en la parte superior */
+        right: 10px;
+        /* Alineado al lateral derecho */
+
+    }
+
+    to {
+        bottom: 68px;
+        /* Elimina la restricción desde la parte superior */
+        right: 10px;
+        /* Alineado al lateral derecho */
+    }
+}
