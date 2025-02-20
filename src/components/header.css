@@ -1,186 +1,176 @@
 .img {
-    width: 100%;
-    height: 75vh;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    background-size: cover;
+  width: 100%;
+  height: 75vh;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 nav {
-    height: 70px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 nav div {
-    margin: 10px;
-    width: 200px;
-    height: 50px;
-    background-repeat: no-repeat;
-    background-size: contain;
+  margin: 10px;
+  width: 200px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .presentation {
-    position: relative;
-    width: 100%;
-    height: 75vh;
+  position: relative;
+  width: 100%;
+  height: 75vh;
 }
 
 .presentation article {
-    background-color: aliceblue;
-    position: absolute;
-    top: 20%;
-    right: 24%;
-    width: 290px;
-    height: auto;
-    padding: 25px;
-    /* box-shadow: 1px 1px 11px 1px rgba(146, 146, 146, 0.378); */
-
+  background-color: aliceblue;
+  position: absolute;
+  top: 20%;
+  right: 24%;
+  width: 290px;
+  height: auto;
+  padding: 25px;
+  /* box-shadow: 1px 1px 11px 1px rgba(146, 146, 146, 0.378); */
 }
 
 .presentation article h2 {
-    font-size: 25px;
-    font-family: 'Lato';
-    font-weight: 400;
-    color: #111;
-
+  font-size: 25px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #111;
 }
 
 .presentation article h6,
 p {
-    font-size: 14px;
-    font-family: 'Lato';
-    font-weight: 400;
-    color: #111;
-    margin-top: 15px;
-
+  font-size: 14px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #111;
+  margin-top: 15px;
 }
 
 .presentation article button {
-    margin-top: 15px;
-    border-radius: 100px;
-    padding: 8px 20px;
-    font-size: 10px;
-    text-transform: uppercase;
-    font-family: 'poppins';
-    letter-spacing: 2px;
-    border: 0;
-    background-color: #195677;
-    color: aliceblue;
-    cursor: pointer;
+  margin-top: 15px;
+  border-radius: 100px;
+  padding: 8px 20px;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-family: "poppins";
+  letter-spacing: 2px;
+  border: 0;
+  background-color: #195677;
+  color: aliceblue;
+  cursor: pointer;
 }
 
 .presentation article button:hover {
-    background-color: rgb(0, 0, 0);
-    color: aliceblue;
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
 }
 
-
 section h3 {
-    text-align: center;
-    font-size: 28px;
-    font-family: 'Lato';
-    font-weight: 600;
-    color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-family: "Lato";
+  font-weight: 600;
+  color: #fff;
 }
 
 section p {
-    text-align: center;
-    font-size: 14px;
-    font-family: 'Lato';
-    font-weight: 400;
-    color: #fff;
-    margin: auto;
-    margin-top: 15px;
-    width: 90%;
-    line-height: 18px;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #fff;
+  margin: auto;
+  margin-top: 15px;
+  width: 90%;
+  line-height: 18px;
 }
 
-@media(width<700px) {
-
-    .presentation article {
-        background-color: aliceblue;
-        position: absolute;
-        top: 20%;
-        right: 10%;
-        width: 220px;
-        height: auto;
-        padding: 25px;
-        /* box-shadow: 1px 1px 11px 1px rgb(251, 247, 247); */
-
-    }
-
+@media (width<700px) {
+  .presentation article {
+    background-color: aliceblue;
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    width: 220px;
+    height: auto;
+    padding: 25px;
+    /* box-shadow: 1px 1px 11px 1px rgb(251, 247, 247); */
+  }
 }
 
 @media (min-width: 700px) and (max-width: 1200px) {
-    .presentation article h2 {
-        font-size: 22px;
-        font-family: 'Lato';
-        font-weight: 400;
-        color: #111;
+  .presentation article h2 {
+    font-size: 22px;
+    font-family: "Lato";
+    font-weight: 400;
+    color: #111;
+  }
 
-    }
-
-    .presentation article h6,
-    p {
-        font-size: 10px;
-        font-family: 'Lato';
-        font-weight: 400;
-        color: #111;
-        margin-top: 15px;
-
-    }
-
-
-
+  .presentation article h6,
+  p {
+    font-size: 10px;
+    font-family: "Lato";
+    font-weight: 400;
+    color: #111;
+    margin-top: 15px;
+  }
 }
 
-@media (width>1200px)and(width<=1400) {}
+@media (width>1200px) and(width<=1400) {
+}
 
-@media (width>1400px) {}
+@media (width>1400px) {
+}
 /* Estilos base para el contenedor de los íconos */
 .random-number {
-    position: fixed;
-    z-index: 1000;
-    bottom: 150vh; /* Fuera de pantalla al inicio */
-    right: 10px;
-    color: white;
-    transition: bottom 1s ease-in-out; /* Transición general para la aparición/desaparición */
+  position: fixed;
+  z-index: 1000;
+  bottom: 150vh; /* Fuera de pantalla al inicio */
+  right: 10px;
+  color: white;
+  transition: bottom 1s ease-in-out; /* Transición general para la aparición/desaparición */
 }
 
 .random-number.show {
-    bottom: 68px; /* Aparece en esta posición */
+  bottom: 68px; /* Aparece en esta posición */
 }
 
 /* Estilo base para los iconos */
 .random-number .icon {
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 16px;
-    padding: 10px;
-    margin-right: 10px;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    background-size: cover;
-    cursor: pointer;
-    transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out; /* Transiciones para los íconos */
-    opacity: 0; /* Inicia invisible */
-    transform: translateY(20px); /* Inicia desplazado */
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+  padding: 10px;
+  margin-right: 10px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out; /* Transiciones para los íconos */
+  opacity: 0; /* Inicia invisible */
+  transform: translateY(20px); /* Inicia desplazado */
 }
 
 /* Animación para el primer icono */
 .random-number.show .icon:first-child {
-    opacity: 1;
-    transform: translateY(0); /* Vuelve a su posición original */
-    transition-delay: 0.2s; /* Aparece primero con 0.2s de retraso */
+  opacity: 1;
+  transform: translateY(0); /* Vuelve a su posición original */
+  transition-delay: 0.2s; /* Aparece primero con 0.2s de retraso */
 }
 
 /* Animación para el segundo icono con mayor retraso */
 .random-number.show .icon:nth-child(2) {
-    opacity: 1;
-    transform: translateY(0); /* Vuelve a su posición original */
-    transition-delay: 0.5s; /* Aparece después con un retraso de 0.5s */
+  opacity: 1;
+  transform: translateY(0); /* Vuelve a su posición original */
+  transition-delay: 0.5s; /* Aparece después con un retraso de 0.5s */
 }

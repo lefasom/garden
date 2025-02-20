@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import './header.css';
+import React, { useState } from "react";
+import "./header.css";
 
 function Header() {
   const [view, setView] = useState(false);
@@ -11,13 +11,19 @@ function Header() {
   return (
     <div>
       <nav>
-        <div style={{ backgroundImage: "url('./servicio.png')" }}></div>
+        <div style={{ backgroundImage: "url('./campo.png')" }}></div>
       </nav>
       <div className="presentation">
-        <div className="img" style={{ backgroundImage: "url('./fondo1.png')" }}></div>
+        <div
+          className="img"
+          style={{ backgroundImage: "url('./fondo1.png')" }}
+        ></div>
         <article>
           <h2>Transforma tu Jardín</h2>
-          <h6>Expertos en diseño y cuidado de espacios verdes. Relájate y deja el trabajo en nuestras manos.</h6>
+          <h6>
+            Expertos en diseño y cuidado de espacios verdes. Relájate y deja el
+            trabajo en nuestras manos.
+          </h6>
           <p>¡Nosotros lo hacemos por ti!</p>
           <button onClick={handleContactClick}>Contáctanos</button>
         </article>
@@ -29,9 +35,16 @@ function Header() {
       </div>
 
       {/* Mostrar íconos con animación */}
-      <div className={`random-number ${view ? 'show' : ''}`}>
-        <div className="icon" style={{ backgroundImage: "url('./social.png')" }}></div>
-        <div className="icon" style={{ backgroundImage: "url('./whatsapp.png')" }}></div>
+      <div className={`random-number ${view ? "show" : ""}`}>
+        <div
+          className="icon"
+          style={{ backgroundImage: "url('./social.png')" }}
+        ></div>
+        <a
+          href="https://wa.me/2613013869?text=Hola,%20vengo%20de%20Camo%20Premium,%20tu%20sitio%20web.%20Quisiera%20consultarte%20sobre%20un%20presupuesto%20para%20mi%20jardín%20o%20más%20detalles%20de%20tus%20servicios."
+          className="icon"
+          style={{ backgroundImage: "url('./whatsapp.png')" }}
+        ></a>
       </div>
     </div>
   );
