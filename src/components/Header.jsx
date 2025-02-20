@@ -41,7 +41,7 @@ function Header() {
           style={{ backgroundImage: "url('./social.png')" }}
         ></div>
         <a
-          href="https://wa.me/2613013869?text=Hola,%20vengo%20de%20Camo%20Premium,%20tu%20sitio%20web.%20Quisiera%20consultarte%20sobre%20un%20presupuesto%20para%20mi%20jardín%20o%20más%20detalles%20de%20tus%20servicios."
+          href="https://wa.me/2613013869?text=Hola,%20vengo%20de%20Campo%20Premium%20-%20web.%20Quisiera%20consultarte%20sobre%20un%20presupuesto%20para%20mi%20jardín."
           className="icon"
           style={{ backgroundImage: "url('./whatsapp.png')" }}
         ></a>
