@@ -11,7 +11,7 @@ function Header() {
   return (
     <div>
       <nav>
-        <div style={{ backgroundImage: "url('./campo.png')" }}></div>
+        <div style={{ backgroundImage: "url('./campito.png')" }}></div>
       </nav>
       <div className="presentation">
         <div
