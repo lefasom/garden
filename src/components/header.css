@@ -15,7 +15,7 @@ nav {
 
 nav div {
   margin: 3px;
-  width: 95px;
+  width: 190px;
   height: 90px;
   background-repeat: no-repeat;
   background-size: contain;
@@ -63,7 +63,7 @@ p {
   font-family: "poppins";
   letter-spacing: 2px;
   border: 0;
-  background-color: #195677;
+  background-color: #16541e;
   color: aliceblue;
   cursor: pointer;
 }
