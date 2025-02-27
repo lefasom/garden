@@ -14,9 +14,9 @@ nav {
 }
 
 nav div {
-  margin: -3px;
-  width: 80px;
-  height: 80px;
+  margin: 3px;
+  width: 95px;
+  height: 90px;
   background-repeat: no-repeat;
   background-size: contain;
 }
