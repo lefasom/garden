@@ -5,6 +5,7 @@ import GardeningServicesGrid from './components/GardeningServicesGrid'
 import Footer from './components/Footer'
 import ServiciosJardineria from './components/ServiciosJardineria'
 import ScrollToTopButton from './components/ScrollToTopButton'
+import Gallery from './components/gallery'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,9 +13,10 @@ function App() {
   return (
     <>
     <ScrollToTopButton/>
-     <Header/>
+    <Header/>
     <ServiciosJardineria/>
-     <GardeningServicesGrid/>
+    <GardeningServicesGrid/>
+    <Gallery/>
     <Footer/>
     </>
   )

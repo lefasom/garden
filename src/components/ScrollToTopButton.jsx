@@ -35,7 +35,7 @@ const ScrollToTopButton = () => {
                         onClick={scrollToTop}
                         className="scroll-to-top-btn"
                     >
-                        <span class="material-symbols-outlined">
+                        <span class="material-symbols-outlined" translate='no-tranlate'>
                             keyboard_arrow_up
                         </span>
                     </button>
