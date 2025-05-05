@@ -12,7 +12,7 @@ const Gallery = () => {
     },
     {
       image:
-        "http://www.ginerymira.com/blog/wp-content/uploads/2014/07/Trabajos-en-jardinería.jpg",
+        "https://i.pinimg.com/originals/a4/c9/05/a4c905e2df2aaf28f179f470df3f51b8.jpg",
       alt: "Personal trabajando activamente en mantenimiento de jardín",
     },
     {
