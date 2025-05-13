@@ -6,7 +6,7 @@ function Footer() {
     <footer class="footer">
       <div class="footer-container">
         <div class="footer-column">
-          <h3>🌿 Jardinería Echegaray</h3>
+          <h3>🌿 Jardinería - Campo Premium</h3>
           <p>
             Transformamos espacios verdes con pasión y compromiso. Servicios
             personalizados para hogares y empresas.
@@ -49,7 +49,7 @@ function Footer() {
       </div>
 
       <div class="footer-bottom">
-        © 2025 Jardinería Echegaray — Todos los derechos reservados.
+        © 2025 Jardinería 🌿 Campo Premium — Todos los derechos reservados.
       </div>
     </footer>
   );
