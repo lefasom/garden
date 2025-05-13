@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./gallery.css"; // Asegúrate de tener este archivo
+import "./gallery.css";
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -7,7 +7,7 @@ const Gallery = () => {
   const workImages = [
     {
       image:
-        "https://scontent.fmdz3-1.fna.fbcdn.net/v/t39.30808-6/309502901_424631729798637_5219179633015215940_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=AOBpNr8uv7UQ7kNvwGxjwbR&_nc_oc=AdlRiByefV6hOuVGjsj2hxAzH8lp-dy0yzfqXLvuV6KbFEk-9Rco-jB2RBPjFxwuzm8&_nc_zt=23&_nc_ht=scontent.fmdz3-1.fna&_nc_gid=9-59_jZnPbtLZv3AU9GJ8A&oh=00_AfFsNFeBIQq8M7adhm7Vha16jziH7aiFFAWmrQZOI6JJ0w&oe=681DADE7",
+        "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSEdhVgpODRL1d64rf7qFQe6yGjSxJx497oSZMDpCTAA6BrFeCOnx4riL2u0WY1PMNMF_-PS6tcXDDokLAIpNULVA",
       alt: "Muestra de un jardín terminado y limpio",
     },
     {
@@ -35,6 +35,11 @@ const Gallery = () => {
     },
     {
       image:
+        "https://s1.elespanol.com/2021/08/18/imprescindibles/605200480_200789796_1706x1280.jpg",
+      alt: "Equipo de seguridad y herramientas especializadas",
+    },
+    {
+      image:
         "https://www.einhell.com.ar/fileadmin/_processed_/3/c/csm_einhell-garden-further-garden-tools-content_8455610655.jpg",
       alt: "Equipo de seguridad y herramientas especializadas",
     },
@@ -43,8 +48,8 @@ const Gallery = () => {
   const openModal = (image) => setSelectedImage(image);
   const closeModal = () => setSelectedImage(null);
 
-  return (
-    <div className="container">
+  const WorkGallery = () => (
+    <>
       <h2 className="title">🌱 Galería de Trabajos Realizados</h2>
       <p className="description">
         Vea una muestra de nuestros jardines transformados. Imágenes reales de
@@ -65,14 +70,16 @@ const Gallery = () => {
           </div>
         ))}
       </div>
-      <br />
-      <br />
-      <h2 className="title">🛠️ Herramientas y Equipos Profesionales</h2>
+    </>
+  );
+
+  const ToolGallery = () => (
+    <>
+      <h2 className="title">Herramientas y Equipos Profesionales</h2>
       <p className="description">
         Utilizamos maquinaria y herramientas especializadas para asegurar
         calidad y eficiencia en cada servicio.
       </p>
-
       <div className="grid2">
         {toolImages.map((item, index) => (
           <div
@@ -88,7 +95,15 @@ const Gallery = () => {
           </div>
         ))}
       </div>
+    </>
+  );
 
+  return (
+    <div className="container">
+      <ToolGallery />
+      <br />
+      <br />
+      {/* <WorkGallery /> */}
       {selectedImage && (
         <div className="modal-overlay" onClick={closeModal}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
