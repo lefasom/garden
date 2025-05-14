@@ -14,9 +14,9 @@ function App() {
     <>
       <ScrollToTopButton />
       <Header />
+      <GardeningServicesGrid />
       <ServiciosJardineria />
       <Gallery />
-      <GardeningServicesGrid />
       <Footer />
     </>
   );

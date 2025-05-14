@@ -101,8 +101,6 @@ const Gallery = () => {
   return (
     <div className="container">
       <ToolGallery />
-      <br />
-      <br />
       {/* <WorkGallery /> */}
       {selectedImage && (
         <div className="modal-overlay" onClick={closeModal}>
